@@ -9,8 +9,7 @@ def find_min_in_nested_arrays(src)
       lowest__integer=src[row_index][element_index]
     end
   element_index+=1
-end# src will be an array of arrays of integers
-  # Produce a newend Array that contains the smallest number of each of the nested arrays
+end
 max_temps<< lowest__integer
 row_index+=1
 end
