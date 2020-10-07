@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  max_temps = []
+  low_temps = []
   row_index=0
   while row_index < src.count do
     element_index =0
@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
     end
   element_index+=1
 end
-max_temps<< lowest__integer
+low_temps<< lowest__integer
 row_index+=1
 end
-max_temps
+low_temps
